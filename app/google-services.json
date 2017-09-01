@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "522429294913",
+    "firebase_url": "https://destroy-25ff4.firebaseio.com",
+    "project_id": "destroy-25ff4",
+    "storage_bucket": "destroy-25ff4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:522429294913:android:d61aacb21c3eeb86",
+        "android_client_info": {
+          "package_name": "cl.aguzman.takephoto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "522429294913-mtv05mug3kntgejnqh4l24q2d0sgeqql.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.aguzman.takephoto",
+            "certificate_hash": "170a5e7606d9c883762413f608b08e461444898d"
+          }
+        },
+        {
+          "client_id": "522429294913-g8b01je9k24c3u6odetpggiaegvtbcur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA40YwPacLUj2WPR3efkSrpSKMexRZgRTI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "522429294913-g8b01je9k24c3u6odetpggiaegvtbcur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
