@@ -4,11 +4,10 @@ import android.Manifest;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
-import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -26,10 +25,7 @@ import com.google.firebase.storage.UploadTask;
 
 import java.util.Map;
 
-import static android.R.attr.path;
-import static android.R.attr.visible;
 import static android.app.Activity.RESULT_OK;
-import static android.os.Build.VERSION_CODES.M;
 
 /**
  * A placeholder fragment containing a simple view.
@@ -100,6 +96,7 @@ public class MainActivityFragment extends Fragment {
 
     public void takePhoto() {
         magicalCamera.takeFragmentPhoto(this);
+
     }
 
     public void uploadPhoto(String path){
